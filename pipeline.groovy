@@ -36,8 +36,8 @@ pipeline {
                     sudo apt update -y
                     sudo apt install awscli -y
                     sudo apt install openjdk-11-jre -y
-                    export AWS_ACCESS_KEY_ID=AKIA3UOQDMGBAAXDP2YX
-                    export AWS_SECRET_ACCESS_KEY=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
+                    export AWS_ACCESS_KEY_ID=*******************************
+                    export AWS_SECRET_ACCESS_KEY=************************
                     export AWS_DEFAULT_REGION=us-west-2
                     aws s3 cp s3://artifact11-bucket-builder/student-${BUILD_ID}.war /home/ec2-user/
                     curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69.tar.gz
